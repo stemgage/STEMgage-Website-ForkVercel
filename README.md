@@ -26,3 +26,4 @@
 npm run build
 ```
 This outputs a `dist/` folder with static files you can upload to any static host (Netlify, Vercel, GitHub Pages, etc.).
+update
