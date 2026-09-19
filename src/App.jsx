@@ -27,6 +27,7 @@ import micahPhoto from "./images/micah.jpg";
 import logo from "./images/drawing.svg"
 
 import emailjs from "@emailjs/browser";
+import { Analytics } from '@vercel/analytics/react';
 
 /* ----------------------------------------------------------------------------
    STEMgage — hands-on STEM for elementary kids, at the library, free.
@@ -1354,6 +1355,7 @@ export default function App() {
       </main>
 
       <Footer go={go} />
+      <Analytics />
     </div>
   );
 }
